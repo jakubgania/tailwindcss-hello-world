@@ -3,10 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="output.css" rel="stylesheet">
+        <meta name="robots" content="noindex">
+        <link href="../dist/output.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container mx-auto bg-slate-100">
+        <div class="container mx-auto bg-slate-100 mb-80">
             <h1 class="text-2xl lg:text-4xl xl:text-6xl 2xl:text-8xl py-24 font-bold underline decoration-sky-500 text-center">
                 Tailwindcss
             </h1>
@@ -1849,20 +1851,103 @@
                     Font Family
                 </p>
             </div>
+            <div class="bg-yellow-200">
+                <p class="text-lg font-sans text-left py-10 pl-10">
+                    Example text - font-sans - lg
+                </p>
+            </div>
+            <div class="bg-yellow-400">
+                <p class="text-lg font-serif text-left py-10 pl-10">
+                    Example text - font-serif - lg
+                </p>
+            </div>
+            <div class="bg-yellow-600">
+                <p class="text-lg font-mono text-left py-10 pl-10">
+                    Example text - font-mono - lg
+                </p>
+            </div>
+
             <div class="bg-lime-200">
                 <p class="text-xl font-sans text-left py-10 pl-10">
-                    Example text - font-sans
+                    Example text - font-sans - xl
                 </p>
             </div>
             <div class="bg-lime-400">
                 <p class="text-xl font-serif text-left py-10 pl-10">
-                    Example text - font-serif
+                    Example text - font-serif - xl
                 </p>
             </div>
             <div class="bg-lime-600">
                 <p class="text-xl font-mono text-left py-10 pl-10">
-                    Example text - font-mono
+                    Example text - font-mono - xl
                 </p>
+            </div>
+
+            <div class="bg-cyan-200">
+                <p class="text-2xl font-sans text-left py-10 pl-10">
+                    Example text - font-sans - 2xl
+                </p>
+            </div>
+            <div class="bg-cyan-400">
+                <p class="text-2xl font-serif text-left py-10 pl-10">
+                    Example text - font-serif - 2xl
+                </p>
+            </div>
+            <div class="bg-cyan-600">
+                <p class="text-2xl font-mono text-left py-10 pl-10">
+                    Example text - font-mono - 2xl
+                </p>
+            </div>
+
+            <div class="bg-slate-100">
+                <p class="text-base text-left py-10 pl-10">
+                    Grid - Spanning columns
+                </p>
+            </div>
+            <div class="grid grid-cols-3 gap-4">
+                <div class="row-span-4 bg-red-400">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+                <div class="row-span-2 bg-sky-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+                <div class="row-span-2 bg-yellow-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+                <div class="row-span-2 col-span-2 bg-sky-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+            </div>
+
+            <div class="bg-slate-100">
+                <p class="text-base text-left py-10 pl-10">
+                    Grid - no Tailwindss bottom
+                </p>
+            </div>
+        
+            <div class="images-grid-gallery-section">
+                <div class="images-grid-container">
+                    <div class="item0 flex justify-center items-center bg-sky-100">
+                        <p class="text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+                            github.com/jakubgania
+                        </p>
+                    </div>
+                    <div class="item1 flex justify-center items-center bg-sky-100">
+                        <p class="text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+                            github.com/jakubgania
+                        </p>
+                    </div>
+                    <div class="item2 flex justify-center items-center bg-sky-100">
+                        <p class="text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+                            github.com/jakubgania
+                        </p>
+                    </div>
+                    <div class="item3 flex justify-center items-center bg-sky-100">
+                        <p class="text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+                            github.com/jakubgania
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div>
